@@ -3,6 +3,9 @@ import HeaderComponents from './components/HeaderComponents/HeaderComponents';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import HomeComponents from './components/HomeComponents/HomeComponent';
 import AddEditPayrollComponent from './components/AddEditPayrollComponent/AddEditPayrollComponent';
+import "./components/AddEditPayrollComponent/AddEditPayrollComponent.css"
+import "./components/HeaderComponents/HeaderComponent.css"
+import "./components/HomeComponents/HomeComponent.css"
 
 function App() {
   return (
