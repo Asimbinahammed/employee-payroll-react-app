@@ -7,7 +7,6 @@ export class HeaderComponents extends Component {
                 <a className='navbarBrand' href='/'>
                     <strong>Employee Payroll</strong>
                 </a>
-
             </div>
         )
     }
