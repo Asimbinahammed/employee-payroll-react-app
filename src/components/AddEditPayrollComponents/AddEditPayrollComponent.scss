@@ -1,8 +1,9 @@
+$form-font:Roboto;
 *{
     box-sizing: border-box;
 }
 
-body{
+.body{
     margin: 0;
     height: 100%;
 }
@@ -29,7 +30,7 @@ body{
 }
 
 .form-head {
-    font: normal normal bold 24px/37px Roboto;
+    font: normal normal bold 24px/37px $form-font;
     letter-spacing: 0px;
     color: #42515f;
     text-transform: capitalize;
@@ -58,7 +59,7 @@ label {
     font-size: 16px;
     color: #42515f;
     opacity: 1;
-    font-family: Roboto;
+    font-family: $form-font;
 }
 
 .input {
@@ -92,7 +93,7 @@ select {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    font: normal normal normal 16px Roboto;
+    font: normal normal normal 16px $form-font;
     letter-spacing: 0px;
     color: #42515f;
     background-color: transparent;
@@ -106,9 +107,9 @@ select {
     margin-top: 20px;
 }
 
-.button {
+.Button {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: $form-font;
     letter-spacing: 0px;
     color: #42515f;
     opacity: 1;
@@ -130,6 +131,9 @@ select {
 .cancelButton {
     text-decoration: none;
     text-align: center;
+    color: red;
+    background-color: rgb(194, 183, 183);
+    padding: 7px 7px;
 }
 
 error-output {
@@ -177,4 +181,9 @@ error-output {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+}
+
+.body-edit{
+    margin: 0;
+    height: 100%;
 }
